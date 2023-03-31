@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "podcasts",
+  "collectionName": "videos",
   "info": {
-    "singularName": "podcast",
-    "pluralName": "podcasts",
-    "displayName": "podcast",
+    "singularName": "video",
+    "pluralName": "videos",
+    "displayName": "video",
     "description": ""
   },
   "options": {
@@ -12,13 +12,10 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "podcastTitle": {
+    "videoTitle": {
       "type": "string"
     },
-    "podcastDesc": {
-      "type": "string"
-    },
-    "podcastImg": {
+    "videoImg": {
       "type": "media",
       "multiple": false,
       "required": false,
@@ -29,10 +26,13 @@
         "audios"
       ]
     },
-    "podcastYoutube": {
+    "videoDesc": {
+      "type": "string"
+    },
+    "videoYoutube": {
       "type": "richtext"
     },
-    "podcastContent": {
+    "videoContent": {
       "type": "richtext"
     }
   }
