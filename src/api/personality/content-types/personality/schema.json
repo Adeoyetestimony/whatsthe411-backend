@@ -1,0 +1,53 @@
+{
+  "kind": "collectionType",
+  "collectionName": "personalities",
+  "info": {
+    "singularName": "personality",
+    "pluralName": "personalities",
+    "displayName": "personality",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "personalityTitle": {
+      "type": "string"
+    },
+    "personalityDesc": {
+      "type": "string"
+    },
+    "personalityContent": {
+      "type": "richtext"
+    },
+    "personalImg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "authorNamep": {
+      "type": "string"
+    },
+    "authorDescp": {
+      "type": "string"
+    },
+    "authorImgp": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

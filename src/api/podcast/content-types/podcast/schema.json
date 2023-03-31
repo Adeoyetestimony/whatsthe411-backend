@@ -1,0 +1,53 @@
+{
+  "kind": "collectionType",
+  "collectionName": "podcasts",
+  "info": {
+    "singularName": "podcast",
+    "pluralName": "podcasts",
+    "displayName": "podcast",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "podcastTitle": {
+      "type": "string"
+    },
+    "podcastDesc": {
+      "type": "string"
+    },
+    "podcastContent": {
+      "type": "richtext"
+    },
+    "podcastVideo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "authorNamepo": {
+      "type": "string"
+    },
+    "authorDescpo": {
+      "type": "string"
+    },
+    "authorImgpo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
